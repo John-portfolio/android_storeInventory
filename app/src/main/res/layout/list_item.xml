@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryLight"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/lblName"
+        style="@style/ListItemLabels"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/item_name"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:id="@+id/name"
+        style="@style/ListItemValues"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/lblName"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+    <TextView
+        android:id="@+id/lblPrice"
+        style="@style/ListItemLabels"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/lblName"
+        android:text="@string/lbl_price"/>
+
+    <TextView
+        android:id="@+id/price"
+        style="@style/ListItemValues"
+        android:layout_below="@id/name"
+        android:layout_toRightOf="@id/lblPrice"/>
+
+
+    <TextView
+        android:id="@+id/quantity"
+        style="@style/ListItemValues"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/name"/>
+
+    <TextView
+        android:id="@+id/lblQuantity"
+        style="@style/ListItemLabels"
+        android:layout_below="@id/name"
+        android:layout_toLeftOf="@id/quantity"
+        android:text="@string/lbl_quantity"/>
+
+    <Button
+        android:id="@+id/btnSell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:paddingTop="8dp"
+        android:text="@string/sell_button"
+        android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Store Inventory</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Inventory</string>
+
+    <!-- Title for the activity to add new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_inventory">Add Inventory</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for gender information in the editor [CHAR LIMIT=30] -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_name">Item Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_description">Description</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_quantity">Quantity</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_price">Price no decimal</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_inventory_image">Image</string>
+
+    <!-- Label for dropdown menu option supplier A [CHAR LIMIT=20] -->
+    <string name="supplier_a">ACME</string>
+
+    <!-- Label for dropdown menu option supplier B [CHAR LIMIT=20] -->
+    <string name="supplier_b">OOW Electronics</string>
+
+    <!-- Label for dropdown menu option supplier C [CHAR LIMIT=20] -->
+    <string name="supplier_c">GEMCO</string>
+
+    <!-- Label for dropdown menu option supplier D [CHAR LIMIT=20] -->
+    <string name="supplier_d">POKE_GO</string>
+
+    <!-- Toast message in editor when pet has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_successful">Inventory saved</string>
+
+    <!-- Toast message in editor when  pet has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_inventory_failed">Error with saving inventory</string>
+
+    <!-- Title for the activity to edit an existing pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_inventory">Edit Inventory Item</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_successful">Inventory deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_inventory_failed">Error with deleting inventory</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current inventory [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this inventory?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current inventory [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current inventory [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when new pet has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_successful">Inventory saved</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_inventory_failed">Error with saving inventory</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="sell_button">Sell Item</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="lbl_quantity">Quantity: </string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="lbl_price">Price: </string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="item_name">Item Name: </string>
+
+    <!-- 1st line of message on the empty view [CHAR LIMIT=NONE] -->
+    <string name="empty_view_primary_text">Enter new Inventory Items</string>
+
+    <!-- 2nd line of message on the empty view [CHAR LIMIT=NONE] -->
+    <string name="empty_view_secondary_text">Press the \'PLUS\' button to get started</string>
+
+    <!-- Form data missing [CHAR LIMIT=NONE] -->
+    <string name="bad_data_entered">The following fields must be entered: \nItem, Price, and an image.</string>
+
+    <!-- Default 0 [CHAR LIMIT=2] -->
+    <string name="default_zero">0</string>
+
+    <!-- Modify Quantity label [CHAR LIMIT=2] -->
+    <string name="modify_quantity">Modify Quantity</string>
+
+    <!-- Plus sign [CHAR LIMIT=2] -->
+    <string name="plus">+</string>
+
+    <!-- Minus sign [CHAR LIMIT=2] -->
+    <string name="minus">-</string>
+
+    <!-- Order Inventory label [CHAR LIMIT=2] -->
+    <string name="order_inventory">Order Inventory</string>
+
+    <!-- email [CHAR LIMIT=2] -->
+    <string name="email">Email</string>
+
+    <!-- hint email [CHAR LIMIT=2] -->
+    <string name="hint_email">Supplier Email</string>
+
+</resources>
